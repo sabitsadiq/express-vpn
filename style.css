@@ -1,0 +1,14 @@
+* {
+  padding: 0;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.header-background {
+  background-image: url(images/header-img.jpg);
+  object-fit: contain;
+  object-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  height: 60vh;
+}
