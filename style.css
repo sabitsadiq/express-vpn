@@ -10,5 +10,212 @@
   background-repeat: no-repeat;
   width: 100%;
   background-size: cover;
-  height: 60vh;
+  height: 100vh;
+}
+
+.nav-container {
+  padding: 4rem 16rem;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-logo {
+  color: darkgreen;
+  display: flex;
+}
+.header-text {
+  /* border: 2px solid red; */
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 5rem;
+  height: auto;
+}
+.header-title h2 {
+  font-size: 48px;
+  margin-bottom: 2rem;
+}
+.header-intro {
+  /* margin-bottom: 3rem; */
+}
+.header-intro p {
+  width: fit-content;
+  font-weight: 800;
+  font-size: 24px;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+h2 {
+  color: darkgreen;
+}
+.btn {
+  /* margin-top: 3rem; */
+  background-color: darkgreen;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 2rem;
+  font-size: 12px;
+}
+.btn:hover {
+  background-color: white;
+  color: darkgreen;
+  /* outline-color: darkgreen; */
+  border: 2px solid darkgreen;
+}
+.secure-acess-container,
+.safer-internet-container,
+.use-express-container {
+  display: flex;
+  padding: 5rem 16rem;
+  gap: 4rem;
+}
+.secure-access-img,
+.safer-internet-img,
+.use-express-img {
+  /* border: 2px solid red; */
+  width: 80%;
+  /* heigh; */
+}
+.safer-internet-img > img {
+  width: 60%;
+  background-position: center;
+  object-fit: cover;
+  margin-left: 5rem;
+  /* border: 2px solid red; */
+}
+.use-express-img > img,
+.secure-access-img > img {
+  width: 80%;
+  /* height: auto; */
+  background-position: center;
+  object-fit: cover;
+  /* border: 2px solid red; */
+}
+.secure-access-text h2,
+p {
+  margin-bottom: 18px;
+}
+.safer-internet-text {
+  width: 50%;
+  /* border: 2px solid red; */
+}
+.safer-internet-text h2 {
+  margin-bottom: 24px;
+  font-size: 24px;
+}
+/* .safer-internet-text {
+  margin-bottom: 18px;
+} */
+.advantages-container {
+  display: flex;
+  padding: 5rem 16rem;
+  text-align: center;
+}
+.more-adv-link {
+  /* border: 2px solid red; */
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  font-size: 24px;
+}
+.footer-section {
+  background-image: url(./images/footer-img.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer-container {
+  /* border: 2px solid red; */
+  padding: 2rem 16rem;
+}
+.footer-info {
+  width: fit-content;
+  margin: 0 auto;
+}
+.server-position {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: end;
+}
+.location,
+.country,
+.bandwidth {
+  display: flex;
+  flex-direction: column;
+  width: 30px;
+  text-align: center;
+  color: darkgreen;
+  font-size: 24px;
+  /* gap: 1rem; */
+}
+.server-position-link {
+  width: fit-content;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1024px) {
+  .nav-container {
+    padding: 2rem 3rem;
+  }
+  .safer-internet-container,
+  .secure-acess-container,
+  .use-express-container,
+  .advantages-container,
+  .footer-container {
+    /* background-color: red; */
+    padding: 5rem 7rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .safer-internet-container,
+  .secure-acess-container,
+  .use-express-container,
+  .advantages-container,
+  .footer-container {
+    /* background-color: red; */
+    padding: 5rem 2.5rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  .nav-container {
+    padding: 2rem 1.4rem;
+  }
+  .header-title h2 {
+    font-size: 32px;
+  }
+  .header-intro p {
+    font-size: 16px;
+  }
+  .safer-internet-container,
+  .secure-acess-container,
+  .use-express-container,
+  .advantages-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 2.5rem 3rem;
+  }
+  .safer-internet-container {
+    flex-direction: column-reverse;
+  }
+  .safer-internet-text {
+    width: 100%;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+  }
+  .safer-internet-container p {
+    /* width: 20%; */
+    padding: 0 24px;
+  }
+  .advantages-container {
+    gap: 2rem;
+  }
+  .server-position {
+    padding-right: 3.4rem;
+  }
+  .server-position-link {
+    padding-top: 2rem;
+  }
 }
